@@ -1,0 +1,36 @@
+
+div#header {
+    background-color: black;
+    height: 60px;
+    vertical-align: middle;
+    color: red;
+}
+
+div#header h1{
+    font-size: 1.2em;
+    margin: auto 1em;
+    vertical-align: middle;
+}
+
+div#header #nav {
+    float: right;
+    width: fit-content;
+    margin: auto 10px;
+}
+
+div#header ul{
+    display: inline;
+}
+
+div#header ul li{
+    display: inline;
+    font-size: 0.5em;
+}
+
+div#header ul li a:link{
+    color: white;
+}
+
+div#header ul li a:visited{
+    color: gray;
+}
