@@ -1,11 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     width: 80%;
     margin: 0 auto;
+    background: gainsboro;
 }
 
 div#header {
@@ -24,11 +22,15 @@ div#header p {
 div#header #nav {
     float: right;
     width: fit-content;
+    margin: 0;
+    padding: 0;
 }
 
 div#header ul {
     list-style-type: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
     font-size: 0.5em;
 }
 
@@ -44,4 +46,22 @@ div#header ul li a {
 
 div#header ul li a:visited {
     color: gray;
+}
+
+.article {
+    background: white;
+    margin: 10px;
+    padding: 1em 1em;
+}
+
+.footer {
+    background: black;
+    height: 60px;
+    line-height: 60px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
 }
