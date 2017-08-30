@@ -1,35 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
 
 div#header {
     background-color: black;
     height: 60px;
-    
-    color: red;
+    line-height: 60px;
 }
 
-div#header h1{
+div#header p {
     font-size: 1.2em;
     margin: auto 1em;
+    width: fit-content;
+    color: white;
 }
 
 div#header #nav {
     float: right;
     width: fit-content;
-    margin: auto 10px;
 }
 
-div#header ul{
-    display: inline;
-}
-
-div#header ul li{
-    display: inline;
+div#header ul {
+    list-style-type: none;
+    text-decoration: none;
     font-size: 0.5em;
 }
 
-div#header ul li a:link{
+div#header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div#header ul li a {
+    text-decoration: none;
     color: white;
 }
 
-div#header ul li a:visited{
+div#header ul li a:visited {
     color: gray;
 }
