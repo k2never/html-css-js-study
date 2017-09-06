@@ -50,7 +50,7 @@ div#header ul li a:visited {
     color: gray;
 }
 
-.article {
+.article, .sidebar{
     background: white;
     margin: 10px;
     padding: 1em 1em;
@@ -102,4 +102,48 @@ th, td {
 
 table #total {
     background: gray;
+}
+
+h2#sidebar-h2 {
+    border-left: medium solid #eee;
+    padding-left: 0.5em;
+    line-height: 1.5em;
+}
+
+form {
+    display: table;
+    width: 100%;
+}
+
+div.table-row {
+    display: table-row;
+}
+
+div.table-row p{
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+div.table-row span{
+    font-size: 0.2em;
+    color: gray;
+}
+
+
+div.table-row p:first-child{
+    text-align: right;
+}
+
+textarea {
+    width: 100%;
+}
+
+button#submit {
+    border: none;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    column-count: 1;
 }
