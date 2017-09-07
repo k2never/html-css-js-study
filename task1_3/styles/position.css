@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: thin solid black;
+}
+
+
+/* div.inline {
+    display: inline-block;
+} */
+
+div#container {
+    margin: 20px;
+    background-color: #eee;
+    position: relative;
+}
+
+div#left {
+    background-color: #e00;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div#right {
+    background-color: #0e0;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+div#main {
+    margin: 20px 160px 20px 240px;
+    background-color: #00e;
+    width: auto;
+}
+
+p {
+    margin: 20px;
+}
