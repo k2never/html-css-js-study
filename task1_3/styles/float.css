@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.thin_border {
+    border: thin solid black;
+}
+
+
+#container {
+    margin: 20px;
+    background-color: #eee;
+    height: auto;
+    min-height: 472px;
+}
+
+#left {
+    width: 200px;
+    margin: 20px;
+    float: left;
+}
+
+.logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 20px 20px 20px 20px;
+}
+
+#left .logo {
+    display: inline-block;
+}
+
+#left span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    border: none;
+    font-size: 0.8em;
+}
+
+#right {
+    width: 120px;
+    margin: 20px;
+    float: right;
+}
+
+#main {
+    margin: 20px 160px 20px 240px;
+    width: auto;
+}
+
+p {
+    margin: 20px;
+}
