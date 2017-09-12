@@ -1,0 +1,21 @@
+#container {
+    background-color: gray;
+}
+
+#honizontally {
+    background-color: palegoldenrod;
+}
+
+.inline {
+    text-align: center;
+}
+
+.block {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+#vertically {
+    background-color: goldenrod;
+}
