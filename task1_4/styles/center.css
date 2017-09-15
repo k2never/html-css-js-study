@@ -1,5 +1,6 @@
 #container {
     background-color: gray;
+    height: 500%;
 }
 
 #honizontally {
@@ -8,6 +9,7 @@
 
 .inline {
     text-align: center;
+    display: inline;
 }
 
 .block {
@@ -18,4 +20,17 @@
 
 #vertically {
     background-color: goldenrod;
+}
+
+header {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
