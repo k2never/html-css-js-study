@@ -13,7 +13,7 @@
     margin: 20px;
     background-color: #eee;
     height: auto;
-    min-height: 472px;
+    
 }
 
 #left {
@@ -21,6 +21,8 @@
     margin: 20px;
     float: left;
 }
+
+
 
 .logo {
     display: block;
@@ -54,4 +56,13 @@
 
 p {
     margin: 20px;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
