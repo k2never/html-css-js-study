@@ -1,0 +1,147 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    background: gainsboro;
+}
+
+div#header {
+    background-color: black;
+    height: 60px;
+    line-height: 60px;
+}
+
+div#header p {
+    font-size: 1.2em;
+    margin: auto 1em;
+    width: fit-content;
+    color: white;
+}
+
+div#header #nav {
+    float: right;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div#header ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+}
+
+div#header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div#header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+div#header ul li a:visited {
+    color: gray;
+}
+
+.article,
+.sidebar {
+    background: white;
+    margin: 10px;
+    padding: 1em 1em;
+}
+
+.footer {
+    background: black;
+    height: 60px;
+    line-height: 60px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.image_container {
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image_container p {
+    text-align: center;
+}
+
+.image_container img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+}
+
+table th {
+    background: black;
+    color: white;
+}
+
+th,
+td {
+    border: thin solid black;
+}
+
+table #total {
+    background: gray;
+}
+
+h2#sidebar-h2 {
+    border-left: medium solid #eee;
+    padding-left: 0.5em;
+    line-height: 1.5em;
+}
+
+form {
+    display: table;
+    width: 100%;
+}
+
+div.table-row {
+    display: table-row;
+}
+
+div.table-row p {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+div.table-row span {
+    font-size: 0.2em;
+    color: gray;
+}
+
+div.table-row p:first-child {
+    text-align: right;
+}
+
+textarea {
+    width: 100%;
+}
+
+button#submit {
+    border: none;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
