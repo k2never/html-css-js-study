@@ -52,13 +52,14 @@ div#header ul li a:visited {
 .sidebar {
     background: white;
     margin: 10px;
-    padding: 1em 1em;
+    padding: 10px 10px;
 }
 
 .footer {
     background: black;
     height: 60px;
     line-height: 60px;
+    width: 100%;
 }
 
 .footer p {
@@ -144,4 +145,26 @@ button#submit {
     background-color: blue;
     color: white;
     width: 100%;
+}
+
+.sidebar {
+    float: right;
+    width: 400px
+}
+
+.sidebar~div {
+    margin-right: 450px;
+}
+
+.image_container {
+    float: left;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
