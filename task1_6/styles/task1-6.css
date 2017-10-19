@@ -33,4 +33,42 @@ body {
     display: table-cell;
     color: #d45d5c;
     vertical-align: bottom;
+    padding-top: 45px;
+}
+
+#about {
+    width: 892px;
+    height: 301px;
+    margin: 30px auto;
+}
+
+#about-img {
+    width: 641px;
+    height: 301px;
+    float: left;
+    background-image: url("../images/picture_pc.jpg");
+}
+
+.green {
+    width: 191px;
+    height: 301px;
+    float: left;
+    background-color: #00ff00;
+    opacity: 0.3;
+}
+
+.red {
+    width: 191px;
+    height: 301px;
+    float: right;
+    background-color: #ff0000;
+    opacity: 0.3;
+}
+
+#about-text {
+    width: 203px;
+    height: 301px;
+    float: right;
+    margin: 0 24px;
+    border-top: solid 2px #cc8091;
 }
